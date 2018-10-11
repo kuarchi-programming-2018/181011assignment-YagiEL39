@@ -27,8 +27,9 @@ line = input().rstrip()
 # カンマで分割して、リストに代入
 list=line.split(",")
 # リストの要素数を変数に代入
-a=len(list)
+
+num=len(list)
 # リストの中身を出力
 print(list)
 # ランダムに選んだリストの要素を出力
-print(list[random.randrange(a)])
+print(list[random.randrange(num)])

@@ -19,3 +19,5 @@ total=100*number
 print("体重100キロのスライムが" + str(number) + "匹あらわれた")
 print("スライムの合計体重は"+str(total)+"キロです")
 # 合計体重 = 匹数 x 100
+total=100*number
+print("スライムの合計体重は"+str(total)+"キロです")
